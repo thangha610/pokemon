@@ -8,8 +8,8 @@ const Favorites = () => import("./views/Favorites");
 Vue.use(VueRouter);
 
 const routes = [
-  { path: "/favorites", component: Favorites, meta: { requiresAuth: true } },
-  { path: "*", component: Home, meta: { requiresAuth: true } }
+  { path: "/favorites", component: Favorites },
+  { path: "*", component: Home }
 ];
 
 const router = new VueRouter({
