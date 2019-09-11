@@ -49,7 +49,7 @@ export default {
   methods: {
     async fetchPokemonData() {
       await axios
-        .get("https://pokeapi.co/api/v2/pokemon?limit=20")
+        .get("https://pokeapi.co/api/v2/pokemon?limit=200")
         .then(res => {
           this.pokemonData = res.data.results;
         });
