@@ -1,5 +1,5 @@
 # pokedex
-
+Project for learning Vuejs and Vuex
 ## Project setup
 ```
 npm install
